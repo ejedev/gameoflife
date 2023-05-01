@@ -19,3 +19,9 @@ As per the Wikipedia article, the following rules are applied to the game:
 The seed is the randomly decided starting state. During initialization, all positions are either set to alive or dead through a random choice (20% chance of it being alive.) To change this, edit line 31.
 
 The game is a 1000x1000 window. If you want to change this edit line 60. Although you will also need to update both the populate and generation functions (loops should be range of 0 to (height or width / 10) + 1)
+
+## Example
+
+![gameoflife](https://user-images.githubusercontent.com/39352103/235404555-61cc7676-06fc-4c77-af88-43310acb3b0e.gif)
+
+Program shown running, with the generations per second being increased then decreased.
